@@ -1,0 +1,24 @@
+{
+    "name": "suning/phpSdk",
+    "description": "Suning Open SDK for PHP",
+    "homepage": "http://open.suning.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suning",
+            "homepage": "http://open.suning.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Suning\\": "Suning-sdk-php"
+        }
+    },
+    "version": "1.0.0"
+    
+}
