@@ -2,5 +2,16 @@
     "name": "suning/suning-sdk-php",
     "description": "suning opensdk",
     "type": "library",
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Suning\\": "suning-sdk-php/"
+        }
+    }
 }
